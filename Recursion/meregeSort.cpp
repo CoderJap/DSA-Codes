@@ -64,9 +64,6 @@ void mergeSort(int *arr , int s , int e){
     
     }
 
-
-    
-
 int main(){
     int arr[5]={2,5,1,6,9};
     int n=5;
