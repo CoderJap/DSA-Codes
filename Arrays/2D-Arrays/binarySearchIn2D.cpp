@@ -30,7 +30,7 @@ bool binarySearch(vector <vector<int>> &matrix , int target){
             return 1;
         }
         if(element < target){
-            start = mid -1;
+            start = mid +1;
 
         }
         else{
