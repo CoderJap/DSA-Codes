@@ -21,7 +21,7 @@ class Node{
             delete next;
             this -> next =NULL;
         }
-        cout <<" memory is free for node with data"<<value<<endl;
+        cout <<" memory is free for node with data "<<value<<endl;
     }
 
 };
