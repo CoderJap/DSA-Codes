@@ -11,22 +11,22 @@ int main(){
     // insertion
 
     //1
-    pair<string,int> p = make_pair("japjot",7);
+    pair<string,int> p = make_pair("demo",7);
     m.insert(p);
 
     //2
-    pair<string,int> pair2("Coder",1);
+    pair<string,int> pair2("dummy",1);
     m.insert(pair2);
 
     //3
-    m["japjot"] = 2;
+    m["Misc"] = 2;
 
     // what will happen in this case 
-    m["japjot"] = 5;
+    m["Misc"] = 5;
 
     // Search 
-    cout<< m["japjot"] << endl;
-    cout << m.at("Coder") << endl;
+    cout<< m["demo"] << endl;
+    cout << m.at("dummy") << endl;
 
      
 
@@ -45,6 +45,7 @@ int main(){
     cout << m.size() << endl;
 
     // Traversing 
+    
     /*
     for(auto i:m){
         cout << i.first << " " << i.second << endl;
@@ -57,6 +58,9 @@ int main(){
     cout << it->first <<" " << it->second << endl;
     it++;
    }
+
+   // unordered map pe random order mei print honge like jisme voh bne honge 
+   // map mei voh value ke hisab se ordered way mei print honge 
 
 
     return 0;
